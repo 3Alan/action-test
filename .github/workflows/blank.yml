@@ -1,6 +1,9 @@
 name: search-engines-urls-push
 
-on: deployment
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   search-engines-urls-push:
